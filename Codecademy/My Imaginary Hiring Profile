@@ -1,0 +1,10 @@
+public class MyProfile {
+    public static void main(String[] args) {
+        // My imaginary hiring profile!
+        String name = "Gloria";
+        int age = 14;
+        double desiredSalary = 500000.99;
+        char gender = 'f';
+        boolean lookingForJob = true;
+    }
+}
