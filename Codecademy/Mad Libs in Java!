@@ -1,0 +1,44 @@
+Try it out! Copy the code into a text editor and manually change the variables!
+
+public class MadLibs {
+  /*
+  This program creates a mad libs. Have fun!
+  Author: Gloria
+  Date: Jan 21, 2026
+  */
+  	public static void main(String[] args){
+      String name1 = "Bob";
+      String adjective1 = "yellow";
+      String adjective2 = "big";
+      String adjective3 = "stinky";
+      String verb1 = "hop";
+      String noun1 = "spoon";
+      String noun2 = "bat";
+      String noun3 = "blob";
+      String noun4 = "tree";
+      String noun5 = "fork";
+      String noun6 = "chair";
+      String name2 = "Timmy";
+      int number = 10000000;
+      String place1 = "Supermarket";
+
+
+      //DON'T LOOK DOWN!!!! STORY BELOW!!!vvvv
+
+
+
+
+
+
+
+
+
+
+
+
+      //The template for the story
+      String story = "This morning "+name1+" woke up feeling "+adjective1+". 'It is going to be a "+adjective2+" day!' Outside, a bunch of "+noun1+"s were protesting to keep "+noun2+" in stores. They began to "+verb1+" to the rhythm of the "+noun3+", which made all the "+noun4+"s very "+adjective3+". Concerned, "+name1+" texted "+name2+", who flew "+name1+" to "+place1+" and dropped "+name1+" in a puddle of frozen "+noun5+". "+name1+" woke up in the year "+number+", in a world where "+noun6+"s ruled the world.";
+      
+      System.out.println(story);
+    }       
+}
