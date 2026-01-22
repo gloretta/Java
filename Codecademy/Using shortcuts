@@ -1,0 +1,13 @@
+public class BakeSale {
+	public static void main(String[] args) {   
+    //You have 17 cupcakes
+		int numCookies = 17;
+    //A customer comes up and buys 3 cupcakes.
+    numCookies -= 3;
+    //Now you have 14 cupcakes.
+    //A customer comes up and buys half of your cupcakes.
+    numCookies /= 2;
+    //Now you have 7 cupcakes left!
+    System.out.println(numCookies);
+	}
+}
