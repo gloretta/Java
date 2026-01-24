@@ -1,0 +1,10 @@
+public class Final {
+    public static void main(String[] args) {
+        final double pi = 3.14;
+        System.out.println(pi);
+
+        pi = 3.145;
+        // Cannot change a final value!!
+        // This line causes a compile-time error
+    }
+}
