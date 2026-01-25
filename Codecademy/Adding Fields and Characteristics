@@ -1,0 +1,7 @@
+public class Dog{
+    public Dog() {
+        public String name;
+        public String breed;
+        public int weight;
+    }
+}
