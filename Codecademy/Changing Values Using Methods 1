@@ -1,0 +1,20 @@
+public class Store {
+  // instance fields
+  String productType;
+  public double price;
+    
+  // constructor method
+  public Store(String product, double initialPrice) {
+    productType = product;
+    price = initialPrice;
+  }
+    
+  // increase price method
+  public void increasePrice(double priceToAdd) {
+      double newPrice = price + priceToAdd;
+      price = newPrice;
+  }
+    
+}
+
+//This is only the Store.java file. Look out for the Main.java file under the name "Changing Values Using Methods 2".
