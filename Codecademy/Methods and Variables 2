@@ -1,0 +1,8 @@
+public class Main{
+  public static void main(String[] args) {
+    Store lemonadeStand = new Store("Lemonade");
+    lemonadeStand.greetCustomer("Timmy");
+  }
+}
+
+//This is only the Main.java file! Look out for the other file pair for the Store.java file, under the name "Methods and Variables 1".
