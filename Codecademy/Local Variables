@@ -1,0 +1,17 @@
+public class Store {
+  // instance fields
+  String productType;
+    
+  // constructor method
+  public Store(String product) {
+    productType = product;
+  }
+    
+  // advertise method
+  public void advertise() {
+    String message = "Selling " + productType + "!";
+// On the line above, if productType was changed to just product, there would be an error because product is a local variable in the constructor method.
+    System.out.println(message);
+  }
+    
+}
