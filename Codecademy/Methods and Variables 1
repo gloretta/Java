@@ -1,0 +1,22 @@
+public class Store {
+  // instance fields
+  String productType;
+    
+  // constructor method
+  public Store(String product) {
+    productType = product;
+  }
+    
+  // advertise method
+  public void advertise() {
+    String message = "Selling " + productType + "!";
+    System.out.println(message);
+  }
+    
+  // greetCustomer() method
+    public void greetCustomer(String customerName) {
+      System.out.println("Welcome to the store, " + customerName + "!");
+    }
+}
+
+//THIS IS ONLY THE STORE.JAVA FILE!!!! LOOK OUT FOR THE MAIN.JAVA FILE AS WELL FOR THE OTHER FILE. STORED UNDER THE NAME "Methods and Variables 2".
