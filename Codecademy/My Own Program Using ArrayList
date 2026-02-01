@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+
+class List {
+  
+  public static void main(String[] args) {
+    ArrayList<String> schoolSubjects = new ArrayList<>();
+    schoolSubjects.add("Math");
+    schoolSubjects.add("ELA");
+    schoolSubjects.add("Physical Education");
+    schoolSubjects.add("Science");
+
+
+    //There is a new subject in our school! But unfortunately, science was removed. Let's replace it with the new subject 'Digital Art'.
+    System.out.println("The size of the ArrayList 'schoolSubjects' is " + schoolSubjects.size());
+    
+    schoolSubjects.add("Digital Art");
+    schoolSubjects.remove("Science");
+    
+    System.out.println("There is a new subject! It is " + schoolSubjects.get(3) + "!");
+    System.out.println("The new size of the ArrayList 'schoolSubjects' is " + schoolSubjects.size() + ".");
+    System.out.println("The index of 'Math' is: " + schoolSubjects.indexOf("Math") + "!");
+
+
+  }
+  
+}
