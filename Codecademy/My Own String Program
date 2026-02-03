@@ -1,0 +1,13 @@
+public class Review {
+  
+  public static void main(String[] args) {
+    String first = "Gloria";
+    String last = " Osadchuk";
+    System.out.println("Your name is " + first.concat(last) + ". Your firstname initial is: " + first.charAt(0) + ". Your first name equals last name is: " + first.equals(last) + ". Thank you!");
+    System.out.print(first.toUpperCase());
+    System.out.print(last.toUpperCase());
+    
+    
+  }
+  
+}
