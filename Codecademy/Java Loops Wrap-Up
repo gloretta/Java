@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+class Playground {
+
+	public static void main(String[] args) {
+  
+    for (int i = 0; i < 28; i++) {
+  		System.out.println("Congrats on finishing Java loops!");
+	  }
+    System.out.println("You have 3 wishes!");
+    int wishes = 3;
+    while (wishes > 0) {
+      wishes --;
+      System.out.println("You have " + wishes + " wishes!");
+    }
+  }
+
+}
