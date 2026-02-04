@@ -1,0 +1,2 @@
+  public String name;   <--- Can be accessed by other classes
+  private int balance;  <--- Cannot be accessed by other classes
