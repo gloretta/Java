@@ -1,0 +1,12 @@
+public class Bank{
+  public static void main(String[] args){
+    CheckingAccount myAccount = new
+    CheckingAccount("Mike", 300);
+    CheckingAccount accountOne = new CheckingAccount("Zeus", 100);
+    CheckingAccount accountTwo = new CheckingAccount("Hades", 200);
+    myAccount.printBalance();
+  }
+}
+
+
+This is only Bank.java! Find the pair file called CheckingAccount.java under the name: "Using Public Methods - 2".
