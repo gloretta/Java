@@ -1,0 +1,23 @@
+public class SavingsAccount{
+
+  public String owner;
+  public double balanceDollar;
+  public double balanceEuro;
+
+  public SavingsAccount(String owner, double balanceDollar){
+    this.owner = owner;
+    this.balanceDollar = balanceDollar;
+    this.balanceEuro = balanceDollar * 0.85;
+
+  }
+
+  public void addMoney(int balanceDollar){
+    System.out.println("Adding " + balanceDollar + " dollars to the account."); 
+    this.balanceDollar += balanceDollar;
+    System.out.println("The new balance is " + this.balanceDollar + " dollars.");
+
+  }
+
+}
+
+This is only the SavingsAccount.java file! Look for its pair under the name "this Keyword - 2".
