@@ -1,0 +1,8 @@
+public class Bank{ 
+  public static void main(String[] args){
+    CheckingAccount accountOne = new CheckingAccount("Zeus", 100, "1");
+    accountOne.getAccountInformation();
+  }
+}
+
+This is only Bank.java file where we ran our method. To find CheckingAccount.java, look for the name "Private Methods - 2".
