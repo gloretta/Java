@@ -1,0 +1,14 @@
+class Noodle {
+  double lengthInCentimeters;
+  String shape;
+  String texture = "brittle";
+  
+  public void cook() {
+    
+    this.texture = "cooked";
+    
+  }
+}
+
+
+//This is only the Noodle.java file! Look out for spaghetti and main under the numbers 1 and 2.
