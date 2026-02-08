@@ -1,0 +1,6 @@
+class Spaghetti extends Noodle {
+
+}
+
+
+//This is only the Spaghetti.java file! Look for the main and noodle files under numbers 2 and 3. I wrote this myself, by the way.
