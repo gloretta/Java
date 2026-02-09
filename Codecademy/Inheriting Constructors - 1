@@ -1,0 +1,7 @@
+class Pho extends Noodle {
+  public Pho(){
+    super(30.0, 0.64, "flat", "rice flour");
+  }
+}
+
+//Only Pho.java! Look for main and noodle under numbers 2 and 3.
