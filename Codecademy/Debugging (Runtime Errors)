@@ -1,0 +1,8 @@
+public class Main{
+  public static void main(String[] args) {
+    int width = 0;   ------- Dividing by zero. Nothis is wrong with the syntax, it is just not correct.
+    int length = 40;
+    int ratio = length / width;
+    System.out.println(ratio);
+  }
+}
