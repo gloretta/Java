@@ -1,0 +1,20 @@
+public class Debug {
+
+  public static void main(String[] args) {
+    
+    // Can you spot the 11 bugs?
+    System.out.println("What's up?")              -------- Need SEMICOLON    [1]
+    system.out.println("This morning, I got up early to get to school!");            ------ the S needs to be capitalized    [2]
+    System.out.println(First I ate breakfast, then I took the bus to school.);       ------ You need "" for strings    [3]
+    System.out.println("First, I had math. We were finding the areas of triangles and rectangles.")      ---------- Missing SEMICOLON    [4]
+    int base = 8;
+    height = 20;        --------- Need to decalre variable first    [5]
+    //Area of rectangle:
+    System.println(base * height);       ------- It's System.out.println, not system.prinln.  YOU NEED THE "OUT"  [6]
+    //Area of triangle:
+    System.out.println: 20 x 8 x 2;      ------------ 1) You need the () when printing something.   [7]    2) The area formula for triangle is base times height divided by 2, not multiplied  [8]
+                                                                    3) The multiply symbol is *, not x. [9] and [10].
+    System.out.prinln("You made it to the end!");   --------------- There's a typo!  [11]
+  }
+  
+}
