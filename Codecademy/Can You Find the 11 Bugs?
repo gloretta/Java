@@ -2,7 +2,7 @@ public class Debug {
 
   public static void main(String[] args) {
     
-    // Can you spot the 9 bugs?
+    // Can you spot the 11 bugs?
     System.out.println("What's up?")
     system.out.println("This morning, I got up early to get to school!");
     System.out.println(First I ate breakfast, then I took the bus to school.);
