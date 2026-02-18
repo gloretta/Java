@@ -1,0 +1,17 @@
+public class Main {
+	public static void main(String[] args) {
+    String[][] wordData = {{"study", "consider", "examine", "learn"}, {"ponder", "read", "think", "cogitate"}};	
+    
+		int i = 0, j = 0;
+    
+    while(i< wordData.length) {
+      j = 0;
+      while(j < wordData[i].length) {
+        System.out.println(wordData[i][j] + ": [" + i + "]" + "[" + j + "]");
+        j++;
+      }
+      i++;
+    }
+
+	}
+}
