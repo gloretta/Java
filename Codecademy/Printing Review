@@ -1,0 +1,10 @@
+public class Introduction {
+  public static void main(String[] args) {
+    String name = "Gloria";
+    String hobbies = "hiking, swimming, arts and crafts, and traveling";
+    int age = 14;
+    System.out.println("My name is " + name);
+    System.out.printf("I am %d years old\n", age);
+    System.out.print("My hobbies are " + hobbies);
+  }
+}
