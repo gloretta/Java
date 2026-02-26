@@ -1,0 +1,13 @@
+List<String> toCaps = new List<>();
+  toCaps.add("hello");
+  toCaps.add("dogs");
+  toCaps.add("world");
+  toCaps.add("cat");
+  
+  for(String word : words) {
+    if (word.length == 4) {
+      word.toUpperCase();
+    } else {
+      continue;
+    }
+  }
