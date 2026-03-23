@@ -34,7 +34,7 @@ public class Main {
         if(newScores[i][j]<90) {
           newScores[i][j]+=2;
         }
-      }
+      } 
     }
 
     System.out.println(Arrays.deepToString(newScores));
